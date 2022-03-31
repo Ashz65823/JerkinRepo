@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                ech 'Publishing'
+                echo 'Publishing'
             }
         }
     }
