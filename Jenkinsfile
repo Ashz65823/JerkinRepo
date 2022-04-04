@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Package') {
             steps {
-                echo 'Packing'
+                bat 'mvn clean package'
             }
         }
         stage('Publish') {
